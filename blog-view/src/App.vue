@@ -13,7 +13,7 @@ import vueLive2d from 'vue-live2d'
 export default {
   name: 'App',
   components: {
-    live2d
+
   },
   data () {
     return {
