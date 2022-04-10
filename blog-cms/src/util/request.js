@@ -5,6 +5,7 @@ import {Message} from 'element-ui'
 
 const request = axios.create({
 	baseURL: 'https://api.atri.wiki/admin',
+	// baseURL: 'http://192.168.66.88:8090/admin',
 	timeout: 5000
 })
 
