@@ -4,7 +4,7 @@ import 'nprogress/nprogress.css'
 import {Message} from 'element-ui'
 
 const request = axios.create({
-	baseURL: 'https://admin.atri.wiki',
+	baseURL: 'https://api.atri.wiki/admin',
 	timeout: 5000
 })
 
