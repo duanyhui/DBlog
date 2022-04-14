@@ -1,5 +1,5 @@
 <template>
-	<meting-js server="netease" type="playlist" id="5153616876" fixed="true" theme="#25CCF7"></meting-js>
+	<meting-js server="netease" type="playlist" id="6627255627" fixed="true" theme="#25CCF7"></meting-js>
 </template>
 
 <script>
