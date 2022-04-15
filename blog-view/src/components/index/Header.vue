@@ -10,9 +10,7 @@
 			<div class="line"></div>
 		</div>
 
-    <div class="m-mobile-hide">
-      <Live2d/>
-    </div>
+
 
 		<div class="wrapper">
 			<i class="ali-iconfont icon-down" @click="scrollToMain"></i>
