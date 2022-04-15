@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import vueLive2d from 'vue-live2d'
+
 
 
 
@@ -13,21 +13,11 @@ import vueLive2d from 'vue-live2d'
 export default {
   name: 'App',
   components: {
-    live2d
+
   },
   data () {
     return {
-      direction: 'right',
-      style: '',
-      width: 500,
-      height: 500,
-      size: 350,
-      tips: {
-        mouseover: [{
-          selector: '.vue-live2d',
-          texts: ['这样可以修改默认语句']
-        }]
-      }
+
     }
   },
   created () {

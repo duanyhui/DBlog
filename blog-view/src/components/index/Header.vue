@@ -1,18 +1,16 @@
 <template>
 	<header ref="header">
 		<div class="view">
-			<img ref="imgbg1" src="https://cdn.jsdelivr.net/gh/duanyhui/Blog-Resource/avatar/bj1.png" style="display: none;">
-			<div class="bg1" style="background-image: url('https://cdn.jsdelivr.net/gh/duanyhui/Blog-Resource/avatar/bj1.png');"></div>
-			<div class="bg2" style="background-image: url('https://cdn.jsdelivr.net/gh/duanyhui/Blog-Resource/avatar/bj2.png');"></div>
-			<div class="bg3" style="background-image: url('https://cdn.jsdelivr.net/gh/duanyhui/Blog-Resource/avatar/bj3.jpg');" v-show="loaded"></div>
+			<img ref="imgbg1" src="https://cdn.jsdelivr.net/gh/duanyhui/Blog-Resource/avatar/bj1.jpg" style="display: none;">
+			<div class="bg1" style="background-image: url('https://cdn.jsdelivr.net/gh/duanyhui/Blog-Resource/avatar/bj1.jpg');"></div>
+			<div class="bg2" style="background-image: url('https://cdn.jsdelivr.net/gh/duanyhui/Blog-Resource/avatar/bj2.jpg');"></div>
+			<div class="bg3" style="background-image: url('https://cdn.jsdelivr.net/gh/duanyhui/Blog-Resource/avatar/bj33.jpg');" v-show="loaded"></div>
 		</div>
 		<div class="text-malfunction" data-word="D Blog">
 			<div class="line"></div>
 		</div>
 
-    <div class="m-mobile-hide">
-      <Live2d/>
-    </div>
+
 
 		<div class="wrapper">
 			<i class="ali-iconfont icon-down" @click="scrollToMain"></i>

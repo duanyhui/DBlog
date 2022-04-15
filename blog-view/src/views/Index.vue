@@ -46,6 +46,10 @@
 		</el-backtop>
 		<!--底部footer-->
 		<Footer :siteInfo="siteInfo" :badges="badges" :newBlogList="newBlogList" :hitokoto="hitokoto"/>
+
+    <!--  引入live2d看板娘  -->
+    <Live2d/>
+
 	</div>
 </template>
 
@@ -63,16 +67,17 @@
 	import {mapState} from 'vuex'
 	import {SAVE_CLIENT_SIZE, SAVE_INTRODUCTION, SAVE_SITE_INFO, RESTORE_COMMENT_FORM} from "@/store/mutations-types";
 
+  import Live2d from "@/components/live2d/live2d";
 
 
-  import Live2d from '@/components/live2d/live2d';
+
 
 
 
 
 	export default {
 		name: "Index",
-		components: {Header, BlogPasswordDialog, Tocbot, MyAPlayer, RandomBlog, Tags, Nav, Footer, Introduction},
+		components: {Live2d, Header, BlogPasswordDialog, Tocbot, MyAPlayer, RandomBlog, Tags, Nav, Footer, Introduction},
 		data() {
 			return {
 				siteInfo: {

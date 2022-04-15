@@ -3,7 +3,10 @@ import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
 const request = axios.create({
-	baseURL: 'http://localhost:8090/',
+	baseURL: 'https://api.atri.wiki/',
+
+
+	// baseURL: 'http://localhost:8090/',
 	timeout: 10000,
 })
 
